@@ -1,0 +1,120 @@
+/*body {
+ background-image: url("../images/bg1.jpg");
+}*/
+
+
+body{
+  /* height: 100%; */
+  background-color: #416c41;
+  background-image: url("../images/bg3s.jpg");
+  background-repeat: repeat-x;
+  background-size: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+/* .photo{
+  width: 700px;
+  background-color: grey; 
+  margin: 0;
+    padding: 0;
+} */
+
+/* div{ 
+  background-color: white;
+  width: 50%;
+  margin: 0 auto;
+  opacity: 0.5;
+}*/
+
+#header{
+  color: #c1bca0;
+  /*color: darkgreen;*/
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2,5em;
+}
+
+p{
+  color: #c1bca0;
+  /*color: darkgreen;*/
+  text-align: center;
+  font-size: 1.3em;
+  /* font-weight: bold; */
+}
+
+#button-position {
+  text-align: center;
+}
+button{
+  background-color: #0b331f;
+  color: #c1bca0;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  
+  border-style: solid;
+  border-color: #5d7c7e;
+  border-radius: 3.5%;
+  display: inline-block;
+}
+
+button:hover, button:visited{
+  background-color: #5d7c7e;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* order: link, :visited, hover, active */
+
+a:link, a:visited{
+  text-decoration: none;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 250px;
+  padding-top: 5px;
+
+}
+
+#break{
+  line-height:10;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* w3school */
+/* ----------------------------- */
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 30%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  font-weight: bold;
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+
+
+ 
+
+
+  
