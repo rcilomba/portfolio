@@ -79,7 +79,7 @@ a:link, a:visited{
 .wrapper {
   text-align: center;
   padding: 250px;
-  padding-top: 5px;
+  padding-top: 200px;
 
 }
 
@@ -108,10 +108,18 @@ html{
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
-  font-weight: bold;
+ 
+  
 }
 
-.html {width: 90%; background-color: #4CAF50;} /* Green */
+.html {
+  width: 90%; background-color: #4CAF50;/* Green */
+ text-align: center; /*Html text i mitten i bar */
+} 
+
+#imgEnlarge:hover{
+  transform: scale(1.5);
+}
 
 
  

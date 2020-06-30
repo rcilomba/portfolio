@@ -26,7 +26,7 @@
     
       <div id="button-position" class ="myButtons">
         
-        <button onclick="document.location='#section1'">About Me</button>
+        <button onclick="document.location='#section1'">About me</button>
         <button onclick="document.location='#section2'">Portfolio</button>
         <button onclick="document.location='#section3'">Photography</button>
         
@@ -51,17 +51,19 @@
     <p>Copyright | 2020 Ramadan Cilomba</p>
 </footer>
 
+
 <!-- content -->
 
 
 
-
 <div class="wrapper">
+
+    <!-- About me -->
     <div id="aboutMe">
       
         <h1 id="section1">About me</h1>
         <h2>Who I am</h2>
-        <img src="images/cvpic.png" alt="profile-Ramadan">
+        <img id="aboutMePicture" src="images/cvpic.png" alt="profile-Ramadan">
         <p>I have gained my practical understanding and knowledge of IT from 2,5 years of work at a Technical Support department. This position can take advantage of my knowledge because I think you can develop my skills as a Service Support Coordinator because you also have focus on tech and business development. And my position of my education as Mobile Commerce where programming is a part of the education.</p>
 
         <p>I want to put focus on strengthen my knowledge regarding web development and solving problems where I would like to make good contact with the clients and want to start my journey as a developer.</p>
@@ -88,6 +90,7 @@
         <p>Danish</p>
     </div>
  <br>
+ <!-- portfolio -->
     <div class="portfolio">
         <h1 id="section2">My recent work</h1>
         <p>https://mattfarley.ca/, boxar med länk till externa sidor?</p>
@@ -97,18 +100,25 @@
     </div>
  
     <br>
+    <!-- photo section -->
     <div class="photo">
         <h1 id="section3">Photo</h1>
-        <img src="" alt="pic1">
-        <img src="" alt="pic2">
-        <img src="" alt="pic3">
+        <div class="photoGallerySize">
+            <img id="imgEnlarge" src="/images/photos/photogallery1.jpg" alt="pic1" width="200" height="130">
+        <img id="imgEnlarge" src="/images/photos/photogallery2.jpg" alt="pic2" width="200" height="130">
+        <img id="imgEnlarge" src="/images/photos/photogallery3.jpg" alt="pic3" width="200" height="130">
+        </div>
+        
         <p>Foto galleri plus länk till fotosidan</p>
-        <p>3 eller 4 bilder sedan länk till facebook sidan kanske</p>
+        
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, aspernatur modi pariatur obcaecati alias molestiae commodi totam repellendus soluta consequatur vel adipisci ipsum, dolore fugit esse hic deleniti iure voluptatum.</p>
+        <a href="https://www.facebook.com/PhotoByRamma/" target="_blank">See more on my facebook page</a>
+         
     </div>
  <div id="break"><br></div>       
 
     <button onclick="document.location='#top'">Get to top</button>
+  
     
    </div>
    
