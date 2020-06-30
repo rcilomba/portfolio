@@ -97,13 +97,15 @@ html{
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
-/* Container for skill bars */
+/* Container for skill bars programming*/
 .container {
   width: 30%; /* Full width */
   background-color: #ddd; /* Grey background */
+  
 }
 
 .skills {
+  
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
@@ -113,9 +115,23 @@ html{
 }
 
 .html {
-  width: 90%; background-color: #4CAF50;/* Green */
+ width: 90%; background-color: #66CDAA;/* Green */
  text-align: center; /*Html text i mitten i bar */
 } 
+.css {
+  width: 80%; background-color: #4682B4;
+  text-align: center; /*Html text i mitten i bar */
+}
+
+.js {
+  width: 65%; background-color: #FA8072;
+  text-align: center; /*Html text i mitten i bar */
+}
+
+.ps {
+  width: 70%; background-color: #808080;
+  text-align: center; /*Html text i mitten i bar */
+}
 
 #imgEnlarge:hover{
   transform: scale(1.5);
@@ -123,6 +139,23 @@ html{
 
 
  
-
+/* Container for skill bars language*/
 
   
+.swe {
+  width: 97%; background-color: #8FBC8F;/* Green */
+  text-align: center; /*Html text i mitten i bar */
+ } 
+ .eng {
+   width: 80%; background-color: #6495ED;
+   text-align: center; /*Html text i mitten i bar */
+ }
+ 
+ .fr {
+   width: 65%; background-color: #FF7F50;
+   text-align: center; /*Html text i mitten i bar */
+ }
+ 
+ .dk {
+   width: 45%; background-color: #5F9EA0;
+   text-align: center; /*Html text i mitten i bar */
