@@ -1,14 +1,10 @@
-/*body {
- background-image: url("../images/bg1.jpg");
-}*/
-
-
 body{
   /* height: 100%; */
   background-color: #416c41;
   background-image: url("../images/bg3s.jpg");
-  background-repeat: repeat-x;
-  background-size: 100%;
+  background-repeat: no-repeat; /*repeat-x;*/
+  background-size: 1900px 500px;
+
   font-family: 'Roboto', sans-serif;
 }
  
@@ -26,16 +22,21 @@ body{
   opacity: 0.5;
 }*/
 
+#aboutMePicture {
+  border-radius: 100%;
+  
+
+}
+
 #header{
   color: #c1bca0;
   /*color: darkgreen;*/
   text-align: center;
   width: 300px;
-  padding: 20px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 p{
@@ -61,6 +62,10 @@ button{
   display: inline-block;
 }
 
+/* #fb-button{
+  border-radius: 150%;
+} */
+
 button:hover, button:visited{
   background-color: #5d7c7e;
 }
@@ -79,8 +84,7 @@ a:link, a:visited{
 .wrapper {
   text-align: center;
   padding: 250px;
-  padding-top: 200px;
-
+  padding-top: 100px;
 }
 
 #break{
@@ -88,7 +92,7 @@ a:link, a:visited{
 }
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /*scroll function*/
 }
 
 /* w3school */
@@ -99,10 +103,11 @@ html{
 
 /* Container for skill bars programming*/
 .container {
-  width: 30%; /* Full width */
+  width: 60%; /* Full width */
   background-color: #ddd; /* Grey background */
   text-align: center;
   margin: 0 auto; /* container to center*/
+  
   
   
   
@@ -132,8 +137,18 @@ html{
   text-align: center; /*Html text i mitten i bar */
 }
 
+.react {
+  width: 50%; background-color: #DC143C;
+  text-align: center; /*Html text i mitten i bar */
+}
+
+.cCharp {
+  width: 53%; background-color: #808080;
+  text-align: center; /*Html text i mitten i bar */
+}
+
 .ps {
-  width: 70%; background-color: #808080;
+  width: 70%; background-color: #778899;
   text-align: center; /*Html text i mitten i bar */
 }
 
@@ -168,3 +183,26 @@ html{
      padding-left: 10px;
      
    }
+
+
+   hr.new1 {
+    border-top: 1px solid #5F9EA0;
+    margin-bottom: 100px;
+  }
+   /* @media */
+  @media (max-width: 1000px) {
+    .wrapper{
+      float: left; 
+      margin-left: -170px;
+      
+    }
+
+    .container {
+width: 100%;
+    }
+
+    /* footer{
+      width: 100%;
+  height: auto;
+    } */
+  }
